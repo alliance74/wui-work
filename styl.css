@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(97, 102, 84);
+    padding: 40px;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(97, 102, 84);
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h1 {
+text-align: center;
+    color: #000000;
+    margin-bottom:40px;
+}
+
+.form {
+    width: 100%;
+    padding: 70px;
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+legend {
+    font-size: 1.2em;
+    color: #719ae4;
+    padding: 0 10px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    max-width: 280px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+ textarea:hover{
+    background-color: rgb(234, 253, 147);
+}
+input:hover{
+    background-color: rgb(171, 175, 160);
+}
+select:hover{
+    background-color: rgb(241, 248, 224);
+}
+button{
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+border-radius: 10px;
+height: 40px;
+}
+button:hover{
+background-color: #0059ff;
+}
+checkbox:hover{
+background-color: rgb(236, 165, 72);
+}
