@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styl.css">
+
+</head>
+<body><div class="all">
+    
+    
+    <div class="form">
+<form action="post.php" method="post">
+ <div>  <img src="image.webp" alt="logo" style="height: 100px; width: 100px; border-radius: 40px; " ><h1>JOB APPLICATION</h1></div> 
+<fieldset >
+    <legend><h4>Personal info</h4></legend>
+    <label for="full names">Enter your full names:</label>
+    <input type="text" placeholder="alliance bienvenue" name="full_name" required><br><br>
+    <label for="email">Enter your email:</label>
+    <input type="text" placeholder="alli@gmail.com" name="email" required><br><br>
+    <label for="tel">Phone number :</label>
+    <input type="tel" placeholder="0780000000" required><br><br>
+    <label for="date">Enter your date of birth:</label>
+    <input type="date" name="dob" required><br><br>
+    <label for="nationality">Select your nationality:</label>
+    <select name="nationality" id="nation" required>
+        <option value="Rwanda">Rwanda</option>
+        <option value="uganda">uganda</option>
+        <option value="kenya">kenya</option>
+        <option value="Burundi">Burundi</option>
+        <option value="DRC">DRC</option>
+        <option value="USA">USA</option>
+        <option value="SPAIN">SPAIN</option>
+        <option value="portugal">portugal</option>
+        <option value="Russia">Russia</option>
+        <option value="germany">germany</option>
+        <option value="other">other</option>
+    </select><br><br>
+<label for="gender"> Select your gender</label>
+<br><br>
+<label>
+    <input class="check" type="radio" name="gender" value="male" required> Male
+</label>
+<label>
+    <input class="check" type="radio" name="gender" value="female" required> Female
+</label>
+</fieldset>
+<br><fieldset>
+    <legend><h3>Education status</h3></legend>
+    <label for="job ">Degree</label>
+    <input type="text" name="degree" placeholder="data analytics" required><br><br>
+    <label for="">college and high school</label>
+    <input type="text" name="college" placeholder="ex: Rwanda coding Academy" required><br><br>
+    <label for=""> Upload your report</label>
+<input type="file" name="report" required>
+</fieldset><br>
+<fieldset>
+    <span>Write your health issue</span><br>
+<legend><h3>Health issues</h3></Health></legend>
+
+<textarea name="health" id="health" style="height: 100px; width: 400px;" required>
+
+</textarea><br><br>
+
+<input  class="check" type="checkbox" name="check">
+<label for="">do you havea a permanent disease ?</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input class="check" type="checkbox" name="check">
+<label for="">do you have a temporary disease ?</label>
+</fieldset>
+<br><br>
+<fieldset>
+    <legend><h3>Other skills</h3></legend>
+    <label for="sports"> what do you play?</label>
+    <select name="sports" id="sports" required>
+        <option value="football">football</option>
+        <option value="volley ball">volley ball</option>
+        <option value="hand ball">hand ball</option>
+        <option value="basketball">basketball</option>
+        <option value="other">other  </option>
+    </select><br><br>
+    <label for="fav color">select your fav color</label>
+    <input type="color" name="color" required><br><br>
+    <label for="">Rate your experience :</label>
+    <input type="range" name="range" required><br><br>
+    <label for="">Time to start job</label>
+    <input type="time" name="time" required>
+    
+</fieldset>
+<br><br>
+<button type="submit" t>submit</button> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<button type="reset">reset</button>
+
+</form>
+</div>
+</div>
+</body>
+</html>
